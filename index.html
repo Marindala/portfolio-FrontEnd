@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio ML</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+    charset="utf-8"></script>
+</head>
+
+
+
+<body>
+  <div class="container-fluid" id="container">
+    <div id="container-principal">
+      <header class="clasHeader">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-brand" href="#">
+              <img width="70" height="50" src="./images/argentinaPrograma.png" alt="argentinaPrograma">
+              <div class="texto-logo">
+                <p>#YoProgramo</p>
+                <span>Argentina Programa</span>
+              </div>
+            </div>
+            <div id="botones">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="https://www.linkedin.com/in/marina-l%C3%B3pez-12b019193/"><img src="./images/linkedin.png"
+                    width="40" height="40"></a>
+                <a href="https://github.com/Marindala"><img src="./images/github.png" width="40" height="40"></a>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                  data-bs-target="#loginModal">Login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <img id="image-style-back" class="img-fluid" src="./images/Marina Banner.png" />
+        <img id="image-profile" src="./images/Marina.png" alt="foto-perfil">
+        <div id="texto" class="p-2 bd-highlight">
+          <a href="#">
+            <svg id="agregar" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-pen"
+            viewBox="0 0 16 16">
+            <path
+            d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+            </svg>
+          </a>
+        </div>  
+
+
+
+          <h4 class="font">Marina Lorena López</h4>
+          <p class="font">Full Stack Developer Jr.</p>
+          <p class="font">Lomas de Zamora-Buenos Aires</p>
+
+          <div class="mover">
+            <button type="button" class="btn btn-dark">Tengo Interes</button>
+            <button type="button" class="btn btn-dark">Añadir Seccion</button>
+            <button type="button" class="btn btn-dark left-boton">Mas</button>
+          </div>
+      </header>
+
+
+
+
+
+      <section class="font-name content">
+        <article class="clasHeader">
+          <div class="d-flex bd-highlight mb-3">
+            <div class="me-auto p-2 bd-highlight">
+              <h3>Acerca De</h3>
+              <p class="font">Soy una profesional con todas las ganas de superarse, con capacidad de trabajar en
+                equipo e individual, rápido aprendizaje, ágil al momento de dar solución a los incidentes, con capacidad
+                de liderazgo, y practica al adaptarse el entorno laboral. Actualmente dedicada a la especialización en
+                la rama de redes y servidores en plataformas Windows Server, con 2 años de experiencia como Devops.</p>
+            </div>
+            <div class="d-flex bd-highlight mb-3">
+              <div class="me-auto p-2 bd-highlight"></div>
+              <div class="p-2 bd-highlight"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-trash"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                    <path fill-rule="evenodd"
+                      d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+                  </svg></a>
+              </div>
+              <div id="texto" class="p-2 bd-highlight"><a href="#">
+                  <svg id="agregar" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                    class="bi bi-pen" viewBox="0 0 16 16">
+                    <path
+                      d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+                  </svg> </a>
+              </div>
+            </div>
+
+        </article>
+        <article class="clasHeader content">
+
+          <h3>Experiencia </h3>
+
+          <h4><a href="#"><img class="argentinaPrograma" src="./images/yosoyyo.jpg" alt="argentinaPrograma" width="45"
+                height="45"><svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-pen" viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+              </svg><svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-trash" viewBox="0 0 16 16">
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                <path fill-rule="evenodd"
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+              </svg></a> Yo Soy Yo
+          </h4>
+          <h6>Co-Creadora de la Firma</h6>
+          <h6>Tareas realizadas: Diseño gráfico:Adobe Photoshop - Adobe Ilustrador. Sublimación. Atención comercial a
+            Revendedoras y Locales. Administración General.</h6>
+          <p>Inicio:08/2013 Finalización:03/2022</p>
+          <hr>
+          <h4><a href="#"><img class="instituto" src="./images/carpinteria.jpg" alt="carpinteria"><svg class="logosjob"
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-pen"
+                viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+              </svg><svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-trash" viewBox="0 0 16 16">
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                <path fill-rule="evenodd"
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+              </svg></a> Carpintería Neuhaus & Del Prete
+          </h4>
+          <h6>Empleada Administrativa y Supervisora </h6>
+          <h6>Tareas realizadas: Recepcionista.Manejo de Caja Chica.Proveedores-Ctas. Ctes.Armado de Legajos-Liq. De
+            Sueldos y Jornales-Cargas Sociales.Trámites varios-Bancos-Conciliación Bancaria.Presupuestos-Facturación
+          </h6>
+          <p>Inicio:07/2005 Finalización:09/2008</p>
+        </article>
+      </section>
+      <article class="clasHeader content">
+      
+
+          <h3>Educacion </h3>
+
+          <h4><a href="#"><img class="argentinaPrograma" src="./images/argentinaPrograma.png"
+                alt="argentinaPrograma"><svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="black" class="bi bi-pen" viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+              </svg><svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-trash" viewBox="0 0 16 16">
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                <path fill-rule="evenodd"
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+              </svg></a> Argentina Programa
+          </h4>
+          <h6>Full Stack Web Developer JR </h6>
+          <p>Egreso 2022</p>
+          <hr>
+          <h4><a href="#"><img class="instituto" src="./images/tdi_20140409_4030.jpg" alt="instituto"><svg
+                class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-pen" viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+              </svg><svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-trash" viewBox="0 0 16 16">
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                <path fill-rule="evenodd"
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+              </svg></a> Escuela Argentina de Negocios
+          </h4>
+          <h6>Técnica en Recursos Humanos </h6>
+          <p>Egreso 2003</p>
+        </article>
+
+
+        <section class="clasHeader">
+          <div class="container-fluid">
+          
+          <h3>Soft & Hard Skills
+            <a href="#"><svg class="plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-plus-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+              </svg>
+              <svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-pen" viewBox="0 0 16 16">
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+              </svg>
+              <svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+                class="bi bi-trash" viewBox="0 0 16 16">
+                <path
+                  d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                <path fill-rule="evenodd"
+                  d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+              </svg>
+            </a>
+          </h3>
+          <div class="skills">
+
+            <div class="chart" data-percent="90">90%</div>
+            <h3>HTML</h3>
+
+            <div class="chart" data-percent="72">72%</div>
+            <h3>CSS</h3>
+
+            <div class="chart" data-percent="50">50%</div>
+            <h3>JAVASCRIPT</h3>
+          </div>
+          </div>
+       </section>
+       <footer class="clasHeader content">
+        <div class="container-fluid">
+          <h4>Proyectos <a href="#"><svg class="plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="black" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+              </svg>
+              <path fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+          </svg>
+          <svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+            class="bi bi-pen" viewBox="0 0 16 16">
+            <path
+              d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+          </svg>
+          <svg class="logosjob" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black"
+            class="bi bi-trash" viewBox="0 0 16 16">
+            <path
+              d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+            <path fill-rule="evenodd"
+              d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
+          </svg></a></h4>
+          <h6>Portfolio Web-Argentina Programa</h6>
+          <p>Argentina Programa-#YoProgramo</p>
+        
+                    
+        </div>
+        </footer>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+  </div>
+  </div>
+
+</body>
+<script type="text/javascript">
+  $(function () {
+    $('.chart').easyPieChart({
+      size: 160,
+      barColor: "#36e617",
+      scaleLength: 0,
+      lineWidth: 15,
+      trackColor: "#525151",
+      lineCap: "circle",
+      animate: 2000,
+    });
+  });
+</script>
+
+</html>

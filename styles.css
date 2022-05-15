@@ -1,0 +1,128 @@
+body{
+background-color: #8a1a94;
+background-image: linear-gradient(90deg, #8a1a94 0%, #FA709A 33%, #dc8733 66%, #FEE140 100%);
+}
+
+#container{
+background-color: #8a1a94;
+background-image: linear-gradient(90deg, #8a1a94 0%, #FA709A 33%, #dc8733 66%, #FEE140 100%);
+background-color: #E52B50;
+}
+
+div.texto-logo {
+display: flex;
+flex-direction: column-reverse;
+margin: 4%;
+margin-top: -3%;
+}
+
+#texto {
+  display: flex;
+}
+
+.logosjob {
+float: right;
+margin: 10px;
+}
+
+.instituto {
+    width: 50px;
+    border-radius: 10px;
+  }
+
+.argentinaPrograma{
+width: 40px;
+}
+
+
+.navbar-brand {
+display: flex;
+flex-direction: column;
+flex-direction: row;
+padding-top: 0%;
+}
+
+.navbar navbar-expand-lg {
+  position: relative;
+  display: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+
+
+#image-style-back {
+width: 120%;
+height: 450px;
+padding: 0px;
+margin: 0%;
+border-radius: 20px;
+}
+
+#image-profile {
+height: 24%;
+width: 16%;
+border-radius: 50%;
+margin-top: -120px;
+margin-left: 17px;
+}
+
+.mover {
+margin-left: 3px;
+margin-bottom: 6px;
+}
+
+#agregar {
+margin: 1%;
+padding: 0%;
+margin-top: 5%;
+}
+
+.font {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 3px;
+margin-bottom: 0px;
+}
+
+.clasHeader {
+border: 2px solid ;
+border-radius: 20px;
+padding: 5px;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+.chart {
+  position: static;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 160px;
+  height: 160px;
+  color: rgb(230, 162, 213);
+  
+}
+
+.skills {
+  padding: 0%;
+  margin: 0%;
+  display:flex;
+  flex: auto;
+}
+
+
+
+
+
+
+  
+
+
+
+
